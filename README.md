@@ -16,6 +16,7 @@ This Python application detects objects in an image using a pre-trained **YOLOv8
 # Installation
 
 ```bash
+#Clone the Repository
 git clone https://github.com/your-repo/cv-llm-integration.git
 cd cv-llm-integration
 
