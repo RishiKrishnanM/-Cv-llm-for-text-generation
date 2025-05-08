@@ -38,16 +38,16 @@ def generate_text_response(prompt, detected_objects):
 
 def main(image_path, prompt):
     load_image(image_path)  
-    print("🔍 Detecting objects with YOLOv8...")
+    print("Detecting objects with YOLOv8...")
     objects = detect_objects(image_path)
 
     print("Detected Objects:")
     for obj, score in objects:
         print(f"- {obj}: {score}")
 
-    print("\n💬 Generating response from LLaMA 3 via Groq...")
+    print("\n Generating response from LLaMA 3 via Groq...")
     response = generate_text_response(prompt, objects)
-    print("\n📚 Generated Response:\n", response)
+    print("\n Generated Response:\n", response)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YOLO + LLaMA3 via Groq API")
