@@ -34,12 +34,13 @@ Save your image file (e.g., sample.jpg) in the root directory.
 python main.py --image sample.jpg --prompt "Describe what might be happening in this scene."
 
 #Example Output:
-🔍 Detecting objects with YOLOv8...
+Detecting objects with YOLOv8...
 Detected Objects:
 - person: 0.92
 - bicycle: 0.78
 
-💬 Generating response from LLaMA 3 via Groq...
-📚 Generated Response:
+
+Generating response from LLaMA 3 via Groq...
+Generated Response:
 It appears that a person is riding a bicycle, possibly commuting or enjoying a ride outdoors.
 
