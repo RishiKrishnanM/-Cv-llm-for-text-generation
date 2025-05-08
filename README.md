@@ -33,6 +33,8 @@ Save your image file (e.g., sample.jpg) in the root directory.
 # Run this command in terminal for outputs
 python main.py --image sample.jpg --prompt "Describe what might be happening in this scene."
 
+'''
+"""
 #Example Output:
 Detecting objects with YOLOv8...
 Detected Objects:
@@ -43,7 +45,7 @@ Detected Objects:
 Generating response from LLaMA 3 via Groq...
 Generated Response:
 It appears that a person is riding a bicycle, possibly commuting or enjoying a ride outdoors.
-
+"""
 
 #Dependencies
 As listed in requirements.txt:
