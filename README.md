@@ -44,3 +44,31 @@ Generating response from LLaMA 3 via Groq...
 Generated Response:
 It appears that a person is riding a bicycle, possibly commuting or enjoying a ride outdoors.
 
+
+#Dependencies
+As listed in requirements.txt:
+*python_dotenv
+*ultralytics
+*groq
+*pillow
+
+
+ #Architecture Overview
+Input Image
+     │
+     ▼
+[ YOLOv8 Detection ]
+     │
+     ▼
+[ Object Labels + Confidence Scores ]
+     │
+     ▼
+[ Groq LLaMA 3 - Prompt Enrichment ]
+     │
+     ▼
+[ Contextual LLM Output ]
+
+
+#contact
+For inquiries, please reach out via rishimrk003@gmail.com.
+
