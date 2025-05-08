@@ -22,9 +22,23 @@ cd cv-llm-integration
 # Install required packages
 pip install -r requirements.txt
 
+#Configure Environment Variables
+Create a .env file in the project root and add your Groq API key
 
-#how to Run
-save jpg image in this folder
+
+#Image
+Save your image file (e.g., sample.jpg) in the root directory.
 
 # Run this command in terminal for outputs
 python main.py --image sample.jpg --prompt "Describe what might be happening in this scene."
+
+#Example Output:
+🔍 Detecting objects with YOLOv8...
+Detected Objects:
+- person: 0.92
+- bicycle: 0.78
+
+💬 Generating response from LLaMA 3 via Groq...
+📚 Generated Response:
+It appears that a person is riding a bicycle, possibly commuting or enjoying a ride outdoors.
+
